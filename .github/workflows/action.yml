@@ -24,6 +24,6 @@ jobs:
           password: ${{secrets.MAIL_PASSWORD}}
           subject: Beijing Weather Report (${{env.REPORT_DATE}})
           body: file://result.html
-          to: chong.lei@gmail.com
+          to: leichong@sohochina.com
           from: GitHub Actions
           content_type: text/html
